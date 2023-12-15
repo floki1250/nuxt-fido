@@ -2,19 +2,18 @@
 Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: my-module
-- Description: My new Nuxt module
+- Name: Nuxt Fido
+- Package name: nuxt-fido
+- Description: Nuxt Fido 🔐
 -->
 
-# My Module
+# Nuxt Fido
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
@@ -23,31 +22,31 @@ My new Nuxt module for doing amazing things.
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- 🔐 &nbsp;Fido V2
+- 🗝️ &nbsp;Auth
+
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+1. Add `nuxt-fido` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D my-module
+pnpm add -D nuxt-fido
 
 # Using yarn
-yarn add --dev my-module
+yarn add --dev nuxt-fido
 
 # Using npm
-npm install --save-dev my-module
+npm install --save-dev nuxt-fido
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-fido` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    'my-module'
+    'nuxt-fido'
   ]
 })
 ```
